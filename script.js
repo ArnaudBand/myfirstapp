@@ -1,5 +1,4 @@
-
-    const condition = document.querySelector(".condition");
+const condition = document.querySelector(".condition");
 
 let weather = {
     "apikey": "3a493f1d37e98aa9606b276ef24f470c",
