@@ -30,9 +30,9 @@ let weather = {
         document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";
         console.log(data.weather[0].description)
         if (data.weather[0].description == "light rain" || data.weather[0].description == "rain"  || data.weather[0].description == "thunderstorms"){
-            condition.innerText = "I will not go to scholl";
+            condition.innerText = "I will not go to school";
         }else{
-            condition.innerHTML ="I will go to scholl"
+            condition.innerHTML ="I will go to school"
         }
     
     },
